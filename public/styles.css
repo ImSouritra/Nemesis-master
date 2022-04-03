@@ -1,0 +1,220 @@
+#title{
+  background-color: #78DEC7;
+    padding:3% 10% 5% 10%;
+    color:#fff;
+}
+
+
+.big-heading{
+  font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+/* Navigation bar */
+
+  .nav-item{
+  padding: 0 12px;
+  }
+
+.nav-link{
+  font-size: 1.2rem;
+font-family: "Montserrat-light";
+}
+.nav-logo{
+font-family: 'Hahmlet', serif;
+font-weight: bold;
+}
+
+#navbarsearchForm{
+  margin-top: 2px;
+  height: 12px;
+}
+
+#searchbutton{
+margin-top: 0;
+}
+/* Buttons */
+.btn{
+  margin:20px 15px;
+}
+
+.title-img{
+  width: 100%;
+  margin-left: 50px
+}
+
+/* Feature section */
+
+#features{
+  margin: 5% 5%;
+}
+
+.hotelbed-img{
+  width: 65%;
+}
+
+.feature-heading{
+font-family: 'Merriweather', serif;
+font-size: 2rem;
+font-weight: bold;
+line-height:1.5;
+}
+
+.feature-text{
+  font-family:  "Montserrat-light";
+  font-size: 1.2rem;
+  color: #8f8f8f;
+  line-height:2;
+}
+
+/* Testimonials */
+
+#testimonials{
+  background-color: #78DEC7;
+  padding:5% 5%;
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial-text{
+  font-family: 'Merriweather', serif;
+  line-height: 1.5;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+ /* press */
+
+#press{
+  background-color:  #78DEC7;
+  text-align: center;
+}
+
+.press-img{
+  padding:30px;
+  width: 12%;
+}
+
+/* pricing */
+
+.card1:hover {
+     background:#00ffb6;
+     border:1px solid #00ffb6;
+   }
+
+   .card1:hover .list-group-item{
+     background:#00ffb6 !important
+   }
+
+
+
+
+
+   .card2:hover {
+     background:#00C9FF;
+     border:1px solid #00C9FF;
+   }
+
+   .card2:hover .list-group-item{
+     background:#00C9FF !important
+   }
+
+
+   .card3:hover {
+     background:#ff95e9;
+     border:1px solid #ff95e9;
+   }
+
+   .card3:hover .list-group-item{
+     background:#ff95e9 !important
+   }
+
+
+   .card:hover .btn-outline-dark{
+     color:white;
+     background:#212529;
+   }
+
+/* call to action */
+
+ #cta{
+   background-color: #78DEC7;
+   text-align: center;
+   padding: 3% 10%;
+ }
+
+.cta-heading{
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bolder;
+  color: #fff;
+}
+
+#exampleDataList{
+
+}
+
+
+  /* footer */
+
+  #footer{
+    text-align: center;
+    padding: 3% 10%;
+  }
+#newsletter_to{
+    padding: 0 15px;
+    margin: 0 5px;
+    height: 50px;
+    border-radius:3px;
+}
+
+#newsletter_button_footer{
+   -webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+border-radius: 3px;
+border: 0;
+padding: 0 15px;
+font-size: 20px;
+line-height: 28px;
+font-weight: 300;
+height: 48px;
+color: #fff;
+background-color: #0071c2;
+-webkit-box-shadow: none;
+box-shadow: none;
+-webkit-box-flex: 1;
+-webkit-flex: 1;
+-ms-flex: 1;
+flex: 1;
+margin: 0 5px;
+font-family: "Montserrat-light";}
+
+.footer-heading{
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+.footer-text{
+  font-family:  "Montserrat-light";
+  font-size: 1.2rem;
+  color: #8f8f8f;
+  line-height:2;
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}

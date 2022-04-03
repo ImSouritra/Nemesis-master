@@ -1,0 +1,241 @@
+<section id="title">
+    <%- include('partials/header2') %>
+      <div class="container-fluid">
+        <div class="row">
+        
+  
+          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="big-heading">Find best hotels nearby with best prices</h1>
+           <button type="button" class="btn btn-dark btn-lg" ><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-dark btn-lg" ><i class="fab fa-google-play"></i> Download</button>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <img class="title-img" src="images\favpng_holiday-inn-london-bexley-hotel-suite-room.png" alt="iphone-mockup" >
+  
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+    <!-- Features -->
+  
+    <section id="features">
+      <div class="container-fluid">
+  
+  
+     <div class="row">
+          <div class="col-feature col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <img class="hotelbed-img" src="images\bigstock-Hotel-Bed-1653767.png" alt="" style="padding-bottom:20px;" />
+            <h3 class="feature-heading">Great rooms</h3>
+            <p class="feature-text">Modernly designed interior with great bed and washroom.</p>
+          </div>
+          <div class="col-feature col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <img class="" src="images\content10523.png" alt="" style="padding-bottom:20px;" />
+            <h3 class="feature-heading">Tasty foods</h3>
+            <p class="feature-text">Here you can get variety of choices with great taste.</p>
+             </div>
+            <div class="col-feature col-lg-4 col-md-6 col-sm-12 col-xs-12">
+              <img class="" src="images\275229429.png" alt="" style="padding-bottom:20px;";/>
+              <h3 class="feature-heading">Great location</h3>
+              <p class="feature-text">So that you wont have a problem reaching to us.</p>
+            </div>
+     </div>
+  
+  
+  
+    </div>
+  
+    </section>
+  
+  
+    <!-- Testimonials -->
+  
+    <section id="testimonials">
+  
+      <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+       <div class="carousel-indicators">
+         <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+         <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+         <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+         <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+       </div>
+       <div class="carousel-inner">
+         <div class="carousel-item active">
+           <h2 class="testimonial-text">Find your escape from your stressful work life</h2>
+           <img src="images\relaxed-businessman-sitting-bed-besides-luggage-bag.png" alt="bussinessman">
+         </div>
+         <div class="carousel-item">
+           <h2 class="testimonial-text">Spend time with your loved ones</h2>
+           <img class="testimonial-image" src="images\portrait-lovely-couple-organizing-their-trip-with-laptop-mobile-phone-hotel-room.png" alt="lady-profile">
+         </div>
+         <div class="carousel-item">
+           <h2 class="testimonial-text">Check-in whenever you want. Our receptionists are always there to accomodate you</h2>
+           <img class="" src="images\Hotel-receptionist.png" alt="" />
+         </div>
+         <div class="carousel-item">
+           <h2 class="testimonial-text">Your first stay will be from us</h2>
+           <img class="" alt="" src="images\000000000000lucwo-OJ7P6XBUG7.png" />
+         </div>
+       </div>
+       <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+       </button>
+  
+     </div>
+    </section>
+  
+  
+    <!-- Press -->
+  
+    <section id="press">
+      <img class="press-img" src="images\—Pngtree—stay safe wear a mask_6441896.png" alt="tc-logo">
+      <img class="press-img" src="images\PngItem_498644.png" alt="tnw-logo">
+      <img class="press-img" src="images\1220356_paytm_icon.png" alt="biz-insider-logo">
+      <img class="press-img" src="images\272900_card_mastercard_money_payment_shopping_icon.png" alt="" />
+  
+  
+    </section>
+  
+  
+    <!-- Pricing -->
+  
+    <section id="pricing">
+  
+      <div class="container-fluid">
+        <div class="container p-5">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card card1 h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Normal Delux Room</h5>
+                  <small class='text-muted'>For one person</small>
+                  <br><br>
+                  <span class="h2">1000/-</span>/night
+                  <br><br>
+
+                  <form action="/payment" method="post">
+                    <script 
+                    src="https://checkout.stripe.com/checkout.js"
+                    class="stripe-button"
+                    data-key="pk_test_51KDBqQSBx6q8kmsjOLyeZJOCb0EK9fCCrHyatXAhfFHlhBwZlxSP2VPPYywLZVdBoQ2e053jb09eqO0TMqsSACFS00U6axy50q"
+                    data-amount="100000"
+                    data-currency="inr"
+                    data-name="Normal Delux Room"
+                    data-description="Small room for a single person"
+                    data-locale="auto"></script>
+                    <script>document.getElementsByClassName('stripe-button-el')[0].style.display="none"</script>
+                    <div class="d-grid my-3"><button type="submit" class="btn btn-outline-dark btn-block" >Book Now</button></div>
+                  </form>
+                     
+                  <ul>
+                    <li>one small bed</li>
+                    <li>Air condition</li>
+                    <li>Italian bathroom</li>
+                    <li>Tv</li>
+                    <li>Complimentary breakfast</li>
+                  </ul>
+                </div>
+  
+  
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card card2 h-100">
+                <div class="card-body">
+  
+                  <h5 class="card-title">Couple special room</h5>
+                  <small class='text-muted'>For two person</small>
+                  <br><br>
+                  <span class="h2">1500/-</span>/night
+                  <br><br>    
+                    <form action="/payment" method="post">
+                      <script 
+                      src="https://checkout.stripe.com/checkout.js"
+                      class="stripe-button"
+                      data-key="pk_test_51KDBqQSBx6q8kmsjOLyeZJOCb0EK9fCCrHyatXAhfFHlhBwZlxSP2VPPYywLZVdBoQ2e053jb09eqO0TMqsSACFS00U6axy50q"
+                      data-amount="150000"
+                      data-name="Couple Delux Room"
+                      data-description="A Perfect Room for a Couple"
+                      data-locale="auto"></script>
+                      <script>document.getElementsByClassName('stripe-button-el')[1].style.display="none"</script>
+                      <div class="d-grid my-3"><button type="submit" class="btn btn-outline-dark btn-block" >Book Now</button></div>
+                    </form>
+                  <ul>
+                    <li>One queen sized bed</li>
+                    <li>Air condition</li>
+                    <li>Italian bathroom</li>
+                    <li>Tv</li>
+                    <li>Complimentary breakfast</li>
+  
+                  </ul>
+                </div>
+  
+  
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card card3 h-100">
+                <div class="card-body">
+  
+                  <h5 class="card-title">Family Delux room</h5>
+                  <small class='text-muted'>room for three or four person</small>
+                  <br><br>
+                  <span class="h2">2000/-</span>/night
+                  <br><br>
+                  
+                    <form action="/payment" method="post">
+                      <script 
+                      src="https://checkout.stripe.com/checkout.js"
+                      class="stripe-button"
+                      data-key="pk_test_51KDBqQSBx6q8kmsjOLyeZJOCb0EK9fCCrHyatXAhfFHlhBwZlxSP2VPPYywLZVdBoQ2e053jb09eqO0TMqsSACFS00U6axy50q"
+                      data-amount="200000"
+                      data-name="Family Delux Room"
+                      data-description="Large Room for 4-5 Person"
+                      data-locale="auto"></script>
+                      <script>document.getElementsByClassName('stripe-button-el')[2].style.display="none"</script>
+                      <div class="d-grid my-3"><button type="submit" class="btn btn-outline-dark btn-block" >Book Now</button></div>
+                    </form>
+                  <ul>
+                    <li>Two queen sized bed</li>
+                    <li>Air condition</li>
+                    <li>Italian bathroom</li>
+                    <li>Tv</li>
+                    <li>Complimentary breakfast</li>
+                  </ul>
+                </div>
+  
+  
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+  
+  
+    <!-- Call to Action -->
+  
+    <section id="cta">
+  
+  
+  
+  
+     <label for="exampleDataList" class="form-label">  <h3 class="cta-heading">Book a hotel today</h3></label>
+     <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+     <datalist id="datalistOptions">
+       <option value="Mumbai">
+       <option value="Kolkata">
+       <option value="Bangalore">
+       <option value="Delhi">
+       <option value="Kerala">
+     </datalist>
+  
+     <button type="button" class=" download-btn btn btn-dark btn-lg" style="margin-top:50px;"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="download-btn btn btn-outline-dark btn-lg" style="margin-top:50px;"><i class="fab fa-google-play"></i> Download</button>
+    </section>
+    <%- include('partials/footer') %>
